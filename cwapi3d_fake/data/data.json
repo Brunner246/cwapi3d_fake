@@ -1,0 +1,760 @@
+{
+    "elements": [
+        {
+            "name": "stem",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-1"
+                },
+                "7": {
+                    "user7": "section-1"
+                }
+            },
+            "cadwork_guid": "{E7CEAE8D-871B-4EF8-8EBB-49B36EA87552}",
+            "element_type": "beam",
+            "subgroup": "GF-1",
+            "group": "components",
+            "element_id": 1848469387,
+            "geometry": {
+                "width": 180.0,
+                "height": 60.0,
+                "p1": [
+                    3090.0,
+                    1250.0,
+                    3070.0
+                ],
+                "p2": [
+                    3090.0,
+                    1250.0,
+                    5550.0
+                ],
+                "p3": [
+                    3090.0,
+                    1251.0,
+                    3070.0
+                ]
+            },
+            "production_number": 78,
+            "part_number": 40,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 123456
+            }
+        },
+        {
+            "name": "stem",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-1"
+                },
+                "7": {
+                    "user7": "section-1"
+                }
+            },
+            "cadwork_guid": "{D56D1094-9715-46B8-BF09-566DF10C1A94}",
+            "element_type": "panel",
+            "subgroup": "GF-1",
+            "group": "components",
+            "element_id": 1848469355,
+            "geometry": {
+                "width": 200.0,
+                "height": 80.0,
+                "p1": [
+                    3100.0,
+                    1260.0,
+                    3080.0
+                ],
+                "p2": [
+                    3100.0,
+                    1260.0,
+                    5560.0
+                ],
+                "p3": [
+                    3100.0,
+                    1261.0,
+                    3080.0
+                ]
+            },
+            "production_number": 24,
+            "part_number": 74,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 123456
+            }
+        },
+        {
+            "name": "lower sill",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-1"
+                },
+                "7": {
+                    "user7": "section-1"
+                }
+            },
+            "cadwork_guid": "{5AF37B69-0916-4040-A933-BA8D08F9D31B}",
+            "element_type": "beam",
+            "subgroup": "GF-1",
+            "group": "components",
+            "element_id": 1848469417,
+            "geometry": {
+                "width": 220.0,
+                "height": 100.0,
+                "p1": [
+                    3110.0,
+                    1270.0,
+                    3090.0
+                ],
+                "p2": [
+                    3110.0,
+                    1270.0,
+                    5570.0
+                ],
+                "p3": [
+                    3110.0,
+                    1271.0,
+                    3090.0
+                ]
+            },
+            "production_number": 10,
+            "part_number": 49,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 123456
+            }
+        },
+        {
+            "name": "lower sill",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-1"
+                },
+                "7": {
+                    "user7": "section-1"
+                }
+            },
+            "cadwork_guid": "{7D0339EA-9A0F-490C-84D0-23AD9A98FA67}",
+            "element_type": "panel",
+            "subgroup": "GF-1",
+            "group": "components",
+            "element_id": 1848470234,
+            "geometry": {
+                "width": 240.0,
+                "height": 120.0,
+                "p1": [
+                    3120.0,
+                    1280.0,
+                    3100.0
+                ],
+                "p2": [
+                    3120.0,
+                    1280.0,
+                    5580.0
+                ],
+                "p3": [
+                    3120.0,
+                    1281.0,
+                    3100.0
+                ]
+            },
+            "production_number": 46,
+            "part_number": 55,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 123456
+            }
+        },
+        {
+            "name": "stem",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-1"
+                },
+                "7": {
+                    "user7": "section-1"
+                }
+            },
+            "cadwork_guid": "{84FCC2AF-9CCA-4718-9D7F-C564AACF4A23}",
+            "element_type": "beam",
+            "subgroup": "GF-1",
+            "group": "components",
+            "element_id": 1848469345,
+            "geometry": {
+                "width": 260.0,
+                "height": 140.0,
+                "p1": [
+                    3130.0,
+                    1290.0,
+                    3110.0
+                ],
+                "p2": [
+                    3130.0,
+                    1290.0,
+                    5590.0
+                ],
+                "p3": [
+                    3130.0,
+                    1291.0,
+                    3110.0
+                ]
+            },
+            "production_number": 87,
+            "part_number": 48,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 123456
+            }
+        },
+        {
+            "name": "upper sill",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-1"
+                },
+                "7": {
+                    "user7": "section-1"
+                }
+            },
+            "cadwork_guid": "{0C5F4776-8ABB-4BF1-9409-440FE724FBF2}",
+            "element_type": "panel",
+            "subgroup": "GF-1",
+            "group": "components",
+            "element_id": 1848689070,
+            "geometry": {
+                "width": 280.0,
+                "height": 160.0,
+                "p1": [
+                    3140.0,
+                    1300.0,
+                    3120.0
+                ],
+                "p2": [
+                    3140.0,
+                    1300.0,
+                    5600.0
+                ],
+                "p3": [
+                    3140.0,
+                    1301.0,
+                    3120.0
+                ]
+            },
+            "production_number": 62,
+            "part_number": 70,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 123456
+            }
+        },
+        {
+            "name": "upper sill",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-1"
+                },
+                "7": {
+                    "user7": "section-1"
+                }
+            },
+            "cadwork_guid": "{C0B52D7B-736F-464C-9F34-BD4F6210C8F3}",
+            "element_type": "beam",
+            "subgroup": "GF-1",
+            "group": "components",
+            "element_id": 1848689935,
+            "geometry": {
+                "width": 300.0,
+                "height": 180.0,
+                "p1": [
+                    3150.0,
+                    1310.0,
+                    3130.0
+                ],
+                "p2": [
+                    3150.0,
+                    1310.0,
+                    5610.0
+                ],
+                "p3": [
+                    3150.0,
+                    1311.0,
+                    3130.0
+                ]
+            },
+            "production_number": 45,
+            "part_number": 19,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 123456
+            }
+        },
+        {
+            "name": "plate1",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-2"
+                },
+                "7": {
+                    "user7": "LOAD 01"
+                }
+            },
+            "cadwork_guid": "{A1B2C3D4-E5F6-7890-1234-56789ABCDEF0}",
+            "element_type": "plate",
+            "subgroup": "Floor",
+            "group": "Component",
+            "element_id": 1848689940,
+            "geometry": {
+                "width": 320.0,
+                "height": 200.0,
+                "p1": [
+                    3160.0,
+                    1320.0,
+                    3140.0
+                ],
+                "p2": [
+                    3160.0,
+                    1320.0,
+                    5620.0
+                ],
+                "p3": [
+                    3160.0,
+                    1321.0,
+                    3140.0
+                ]
+            },
+            "production_number": 52,
+            "part_number": 73,
+            "comment": "",
+            "material": {
+                "material_name": "OSB/3",
+                "material_id": 654321
+            }
+        },
+        {
+            "name": "plate2",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-3"
+                },
+                "7": {
+                    "user7": "LOAD 02"
+                }
+            },
+            "cadwork_guid": "{B2C3D4E5-F6A7-8901-2345-6789ABCDEF01}",
+            "element_type": "plate",
+            "subgroup": "Roof",
+            "group": "Component",
+            "element_id": 1848689941,
+            "geometry": {
+                "width": 340.0,
+                "height": 220.0,
+                "p1": [
+                    3170.0,
+                    1330.0,
+                    3150.0
+                ],
+                "p2": [
+                    3170.0,
+                    1330.0,
+                    5630.0
+                ],
+                "p3": [
+                    3170.0,
+                    1331.0,
+                    3150.0
+                ]
+            },
+            "production_number": 73,
+            "part_number": 24,
+            "comment": "",
+            "material": {
+                "material_name": "DWD",
+                "material_id": 654322
+            }
+        },
+        {
+            "name": "beam1",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-4"
+                },
+                "7": {
+                    "user7": "LOAD 03"
+                }
+            },
+            "cadwork_guid": "{C1D2E3F4-G5H6-7890-1234-56789ABCDEF2}",
+            "element_type": "beam",
+            "subgroup": "Ceiling",
+            "group": "Structure",
+            "element_id": 1848689942,
+            "geometry": {
+                "width": 360.0,
+                "height": 240.0,
+                "p1": [
+                    3180.0,
+                    1340.0,
+                    3160.0
+                ],
+                "p2": [
+                    3180.0,
+                    1340.0,
+                    5640.0
+                ],
+                "p3": [
+                    3180.0,
+                    1341.0,
+                    3160.0
+                ]
+            },
+            "production_number": 90,
+            "part_number": 12,
+            "comment": "",
+            "material": {
+                "material_name": "GL 28 h NSi",
+                "material_id": 654323
+            }
+        },
+        {
+            "name": "panel1",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-5"
+                },
+                "7": {
+                    "user7": "LOAD 04"
+                }
+            },
+            "cadwork_guid": "{D2E3F4G5-H6I7-8901-2345-6789ABCDEF03}",
+            "element_type": "panel",
+            "subgroup": "Wall",
+            "group": "Structure",
+            "element_id": 1848689943,
+            "geometry": {
+                "width": 380.0,
+                "height": 260.0,
+                "p1": [
+                    3190.0,
+                    1350.0,
+                    3170.0
+                ],
+                "p2": [
+                    3190.0,
+                    1350.0,
+                    5650.0
+                ],
+                "p3": [
+                    3190.0,
+                    1351.0,
+                    3170.0
+                ]
+            },
+            "production_number": 68,
+            "part_number": 71,
+            "comment": "",
+            "material": {
+                "material_name": "CLT",
+                "material_id": 654324
+            }
+        },
+        {
+            "name": "plate3",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-6"
+                },
+                "7": {
+                    "user7": "LOAD 05"
+                }
+            },
+            "cadwork_guid": "{E3F4G5H6-I7J8-9012-3456-789ABCDEF004}",
+            "element_type": "plate",
+            "subgroup": "Floor",
+            "group": "Component",
+            "element_id": 1848689944,
+            "geometry": {
+                "width": 400.0,
+                "height": 280.0,
+                "p1": [
+                    3200.0,
+                    1360.0,
+                    3180.0
+                ],
+                "p2": [
+                    3200.0,
+                    1360.0,
+                    5660.0
+                ],
+                "p3": [
+                    3200.0,
+                    1361.0,
+                    3180.0
+                ]
+            },
+            "production_number": 92,
+            "part_number": 44,
+            "comment": "",
+            "material": {
+                "material_name": "OSB/4",
+                "material_id": 654325
+            }
+        },
+        {
+            "name": "beam2",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-7"
+                },
+                "7": {
+                    "user7": "LOAD 06"
+                }
+            },
+            "cadwork_guid": "{F4G5H6I7-J8K9-0123-4567-89ABCDEF005}",
+            "element_type": "beam",
+            "subgroup": "Roof",
+            "group": "Structure",
+            "element_id": 1848689945,
+            "geometry": {
+                "width": 420.0,
+                "height": 300.0,
+                "p1": [
+                    3210.0,
+                    1370.0,
+                    3190.0
+                ],
+                "p2": [
+                    3210.0,
+                    1370.0,
+                    5670.0
+                ],
+                "p3": [
+                    3210.0,
+                    1371.0,
+                    3190.0
+                ]
+            },
+            "production_number": 19,
+            "part_number": 49,
+            "comment": "",
+            "material": {
+                "material_name": "GL 32 h NSi",
+                "material_id": 654326
+            }
+        },
+        {
+            "name": "panel2",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-8"
+                },
+                "7": {
+                    "user7": "LOAD 07"
+                }
+            },
+            "cadwork_guid": "{G5H6I7J8-K9L0-1234-5678-9ABCDEF006}",
+            "element_type": "panel",
+            "subgroup": "Wall",
+            "group": "Structure",
+            "element_id": 1848689946,
+            "geometry": {
+                "width": 440.0,
+                "height": 320.0,
+                "p1": [
+                    3220.0,
+                    1380.0,
+                    3200.0
+                ],
+                "p2": [
+                    3220.0,
+                    1380.0,
+                    5680.0
+                ],
+                "p3": [
+                    3220.0,
+                    1381.0,
+                    3200.0
+                ]
+            },
+            "production_number": 30,
+            "part_number": 44,
+            "comment": "",
+            "material": {
+                "material_name": "CLT",
+                "material_id": 654327
+            }
+        },
+        {
+            "name": "plate4",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-9"
+                },
+                "7": {
+                    "user7": "LOAD 08"
+                }
+            },
+            "cadwork_guid": "{H6I7J8K9-L0M1-2345-6789-ABCDEF007}",
+            "element_type": "plate",
+            "subgroup": "Ceiling",
+            "group": "Component",
+            "element_id": 1848689947,
+            "geometry": {
+                "width": 460.0,
+                "height": 340.0,
+                "p1": [
+                    3230.0,
+                    1390.0,
+                    3210.0
+                ],
+                "p2": [
+                    3230.0,
+                    1390.0,
+                    5690.0
+                ],
+                "p3": [
+                    3230.0,
+                    1391.0,
+                    3210.0
+                ]
+            },
+            "production_number": 40,
+            "part_number": 63,
+            "comment": "",
+            "material": {
+                "material_name": "DWD",
+                "material_id": 654328
+            }
+        },
+        {
+            "name": "beam3",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-10"
+                },
+                "7": {
+                    "user7": "LOAD 09"
+                }
+            },
+            "cadwork_guid": "{I7J8K9L0-M1N2-3456-789A-BCDEF008}",
+            "element_type": "beam",
+            "subgroup": "Floor",
+            "group": "Structure",
+            "element_id": 1848689948,
+            "geometry": {
+                "width": 480.0,
+                "height": 360.0,
+                "p1": [
+                    3240.0,
+                    1400.0,
+                    3220.0
+                ],
+                "p2": [
+                    3240.0,
+                    1400.0,
+                    5700.0
+                ],
+                "p3": [
+                    3240.0,
+                    1401.0,
+                    3220.0
+                ]
+            },
+            "production_number": 45,
+            "part_number": 24,
+            "comment": "",
+            "material": {
+                "material_name": "GL 24 h NSi",
+                "material_id": 654329
+            }
+        },
+        {
+            "name": "panel3",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-11"
+                },
+                "7": {
+                    "user7": "LOAD 10"
+                }
+            },
+            "cadwork_guid": "{J8K9L0M1-N2O3-4567-89AB-CDEF009}",
+            "element_type": "panel",
+            "subgroup": "Roof",
+            "group": "Structure",
+            "element_id": 1848689949,
+            "geometry": {
+                "width": 500.0,
+                "height": 380.0,
+                "p1": [
+                    3250.0,
+                    1410.0,
+                    3230.0
+                ],
+                "p2": [
+                    3250.0,
+                    1410.0,
+                    5710.0
+                ],
+                "p3": [
+                    3250.0,
+                    1411.0,
+                    3230.0
+                ]
+            },
+            "production_number": 98,
+            "part_number": 5,
+            "comment": "",
+            "material": {
+                "material_name": "CLT",
+                "material_id": 654330
+            }
+        },
+        {
+            "name": "plate5",
+            "user_attributes": {
+                "1": {
+                    "user1": "MODUL-12"
+                },
+                "7": {
+                    "user7": "LOAD 11"
+                }
+            },
+            "cadwork_guid": "{K9L0M1N2-O3P4-5678-9ABC-DEF010}",
+            "element_type": "plate",
+            "subgroup": "Wall",
+            "group": "Component",
+            "element_id": 1848689950,
+            "geometry": {
+                "width": 520.0,
+                "height": 400.0,
+                "p1": [
+                    3260.0,
+                    1420.0,
+                    3240.0
+                ],
+                "p2": [
+                    3260.0,
+                    1420.0,
+                    5720.0
+                ],
+                "p3": [
+                    3260.0,
+                    1421.0,
+                    3240.0
+                ]
+            },
+            "production_number": 85,
+            "part_number": 69,
+            "comment": "",
+            "material": {
+                "material_name": "OSB/3",
+                "material_id": 654331
+            }
+        }
+    ]
+}
