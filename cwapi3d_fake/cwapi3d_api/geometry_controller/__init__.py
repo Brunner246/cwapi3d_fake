@@ -1,5 +1,5 @@
 from typing import List
-from cwapi3d_fake.cwapi3d_api import utils
+from cwapi3d_fake.cwapi3d_api import utils, cadwork
 from cwapi3d_fake.cwapi3d_api.cadwork.point_3d import point_3d
 
 data = utils.load_data()
@@ -46,7 +46,9 @@ def get_length(element_id: int) -> float:
     """
     element = utils.get_element_filter_by_id(element_id, data)
     if element:
-        return element['geometry']['length']
+        end_point = point_3d(element['geometry']['p2'][0], element['geometry']['p2'][1], element['geometry']['p2'][2])
+        start_point = point_3d(element['geometry']['p1'][0], element['geometry']['p1'][1], element['geometry']['p1'][2])
+        return end_point.distance(start_point)
     return 0.0
 
 

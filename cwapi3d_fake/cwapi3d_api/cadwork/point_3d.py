@@ -68,7 +68,7 @@ class point_3d:
         Returns:
             float
         """
-        pass
+        return math.sqrt((self.x - p.x) ** 2 + (self.y - p.y) ** 2 + (self.z - p.z) ** 2)
 
     def invert(self) -> 'point_3d':
         """invert

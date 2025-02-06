@@ -23,7 +23,7 @@ def create_rectangular_beam_points(width: float, height: float, p1: point_3d, p2
     new_element = utils.create_new_construction_element(width, height, p1, p2, p3)
     element_id = new_element['element_id']
     data['elements'].append(new_element)
-    utils.save_data(data)
+    utils.persist_data(data)
 
     return element_id
 
@@ -44,7 +44,7 @@ def create_rectangular_panel_points(width: float, thickness: float, p1: point_3d
     new_element = utils.create_new_construction_element(width, thickness, p1, p2, p3)
     element_id = new_element['element_id']
     data['elements'].append(new_element)
-    utils.save_data(data)
+    utils.persist_data(data)
 
     return element_id
 
@@ -63,7 +63,7 @@ def create_drilling_points(diameter: float, p1: point_3d, p2: point_3d) -> int:
     new_element = utils.create_new_connector_element(diameter, p1, p2)
     element_id = new_element['element_id']
     data['elements'].append(new_element)
-    utils.save_data(data)
+    utils.persist_data(data)
 
     return element_id
 

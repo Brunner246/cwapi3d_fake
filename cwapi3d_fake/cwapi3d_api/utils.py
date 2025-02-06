@@ -2,6 +2,7 @@ import json
 import random
 import uuid
 import os
+from dataclasses import dataclass
 from typing import List, Any, Dict
 
 from cwapi3d_fake.cwapi3d_api.cadwork.point_3d import point_3d
@@ -17,18 +18,17 @@ def load_data():
         return json.load(file)
 
 
-def save_data(data):
+def persist_data(data):
     with open(cwapi3d_fake_data_path, 'w') as file:
         json.dump(data, file, indent=4)
 
 
 def create_random_10_digit_number() -> int:
-    """create random 10 digit number
-
-    Returns:
-        int
-    """
     return random.randint(1000000000, 9999999999)
+
+
+def create_random_6_digit_number() -> int:
+    return random.randint(100000, 999999)
 
 
 def create_guid() -> str:
@@ -88,3 +88,19 @@ def get_element_filter_by_id(element_id: int, mock_data: Any) -> Dict[str, Any]:
                                               == element_id, mock_data['elements']))) is not None:
         return result[0]
     return {}
+
+
+@dataclass
+class Material:
+    material_id: int
+    material_name: str
+    material_code: str
+
+
+def retrieve_materials_from_data(materials_obj) -> List[Material]:
+    existing_materials: List[Material] = [
+        Material(material_id=int(material_id),
+                 material_name=material_data['name'],
+                 material_code=material_data['code'])
+        for material_id, material_data in materials_obj.items()]
+    return existing_materials

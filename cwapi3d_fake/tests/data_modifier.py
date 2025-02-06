@@ -2,7 +2,7 @@ import json
 import os
 import random
 
-os.environ['CWAPI3D_FAKE_Test'] = 'false'
+os.environ['CWAPI3D_FAKE_Test'] = 'true'
 
 if os.getenv('CWAPI3D_FAKE_Test') == 'true':
     cwapi3d_fake_data_path = 'data.json'
@@ -24,11 +24,9 @@ def append_comment_to_element():
 
 def update_material_info():
     materials = {}
-    for element in data['elements']:
-        material_id = element['material']['material_id']
-        material_name = element['material'].pop('material_name')
-        materials[material_id] = material_name
-
+    for key, value in data['materials'].items():
+        materials[key] = {'name': value,
+                          'code': random.randint(100, 999)}
     data['materials'] = materials
 
 
@@ -44,7 +42,7 @@ if __name__ == '__main__':
     with open(cwapi3d_fake_data_path, 'r') as file:
         data = json.load(file)
 
-    update_user_attributes()
+    update_material_info()
 
     with open(cwapi3d_fake_data_path, 'w') as file:
         json.dump(data, file, indent=4)
