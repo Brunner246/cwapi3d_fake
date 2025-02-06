@@ -1,18 +1,19 @@
 {
     "elements": [
         {
-            "name": "stem",
+            "name": "new name",
             "user_attributes": {
                 "1": {
                     "user1": "MODUL-1"
                 },
                 "7": {
                     "user7": "section-1"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{E7CEAE8D-871B-4EF8-8EBB-49B36EA87552}",
             "element_type": "beam",
-            "subgroup": "GF-1",
+            "subgroup": "GF-12",
             "group": "components",
             "element_id": 1848469387,
             "geometry": {
@@ -34,27 +35,27 @@
                     3070.0
                 ]
             },
-            "production_number": 78,
-            "part_number": 40,
+            "production_number": 89,
+            "part_number": 7,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
-                "material_id": 123456
+                "material_id": 654329
             }
         },
         {
-            "name": "stem",
+            "name": "new name",
             "user_attributes": {
                 "1": {
                     "user1": "MODUL-1"
                 },
                 "7": {
                     "user7": "section-1"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{D56D1094-9715-46B8-BF09-566DF10C1A94}",
             "element_type": "panel",
-            "subgroup": "GF-1",
+            "subgroup": "GF-12",
             "group": "components",
             "element_id": 1848469355,
             "geometry": {
@@ -76,12 +77,11 @@
                     3080.0
                 ]
             },
-            "production_number": 24,
-            "part_number": 74,
+            "production_number": 56,
+            "part_number": 39,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
-                "material_id": 123456
+                "material_id": 654322
             }
         },
         {
@@ -92,7 +92,8 @@
                 },
                 "7": {
                     "user7": "section-1"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{5AF37B69-0916-4040-A933-BA8D08F9D31B}",
             "element_type": "beam",
@@ -118,12 +119,11 @@
                     3090.0
                 ]
             },
-            "production_number": 10,
+            "production_number": 41,
             "part_number": 49,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
-                "material_id": 123456
+                "material_id": 654329
             }
         },
         {
@@ -134,7 +134,8 @@
                 },
                 "7": {
                     "user7": "section-1"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{7D0339EA-9A0F-490C-84D0-23AD9A98FA67}",
             "element_type": "panel",
@@ -160,12 +161,11 @@
                     3100.0
                 ]
             },
-            "production_number": 46,
-            "part_number": 55,
+            "production_number": 82,
+            "part_number": 59,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
-                "material_id": 123456
+                "material_id": 654329
             }
         },
         {
@@ -176,7 +176,8 @@
                 },
                 "7": {
                     "user7": "section-1"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{84FCC2AF-9CCA-4718-9D7F-C564AACF4A23}",
             "element_type": "beam",
@@ -202,12 +203,11 @@
                     3110.0
                 ]
             },
-            "production_number": 87,
+            "production_number": 5,
             "part_number": 48,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
-                "material_id": 123456
+                "material_id": 654329
             }
         },
         {
@@ -218,7 +218,8 @@
                 },
                 "7": {
                     "user7": "section-1"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{0C5F4776-8ABB-4BF1-9409-440FE724FBF2}",
             "element_type": "panel",
@@ -244,12 +245,11 @@
                     3120.0
                 ]
             },
-            "production_number": 62,
-            "part_number": 70,
+            "production_number": 2,
+            "part_number": 25,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
-                "material_id": 123456
+                "material_id": 654329
             }
         },
         {
@@ -260,7 +260,8 @@
                 },
                 "7": {
                     "user7": "section-1"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{C0B52D7B-736F-464C-9F34-BD4F6210C8F3}",
             "element_type": "beam",
@@ -286,12 +287,11 @@
                     3130.0
                 ]
             },
-            "production_number": 45,
-            "part_number": 19,
+            "production_number": 26,
+            "part_number": 26,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
-                "material_id": 123456
+                "material_id": 654329
             }
         },
         {
@@ -302,7 +302,8 @@
                 },
                 "7": {
                     "user7": "LOAD 01"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{A1B2C3D4-E5F6-7890-1234-56789ABCDEF0}",
             "element_type": "plate",
@@ -328,11 +329,10 @@
                     3140.0
                 ]
             },
-            "production_number": 52,
-            "part_number": 73,
+            "production_number": 57,
+            "part_number": 28,
             "comment": "",
             "material": {
-                "material_name": "OSB/3",
                 "material_id": 654321
             }
         },
@@ -344,7 +344,8 @@
                 },
                 "7": {
                     "user7": "LOAD 02"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{B2C3D4E5-F6A7-8901-2345-6789ABCDEF01}",
             "element_type": "plate",
@@ -370,12 +371,11 @@
                     3150.0
                 ]
             },
-            "production_number": 73,
-            "part_number": 24,
+            "production_number": 85,
+            "part_number": 92,
             "comment": "",
             "material": {
-                "material_name": "DWD",
-                "material_id": 654322
+                "material_id": 654328
             }
         },
         {
@@ -386,7 +386,8 @@
                 },
                 "7": {
                     "user7": "LOAD 03"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{C1D2E3F4-G5H6-7890-1234-56789ABCDEF2}",
             "element_type": "beam",
@@ -412,11 +413,10 @@
                     3160.0
                 ]
             },
-            "production_number": 90,
-            "part_number": 12,
+            "production_number": 86,
+            "part_number": 93,
             "comment": "",
             "material": {
-                "material_name": "GL 28 h NSi",
                 "material_id": 654323
             }
         },
@@ -428,7 +428,8 @@
                 },
                 "7": {
                     "user7": "LOAD 04"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{D2E3F4G5-H6I7-8901-2345-6789ABCDEF03}",
             "element_type": "panel",
@@ -454,12 +455,11 @@
                     3170.0
                 ]
             },
-            "production_number": 68,
-            "part_number": 71,
+            "production_number": 53,
+            "part_number": 21,
             "comment": "",
             "material": {
-                "material_name": "CLT",
-                "material_id": 654324
+                "material_id": 654330
             }
         },
         {
@@ -470,7 +470,8 @@
                 },
                 "7": {
                     "user7": "LOAD 05"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{E3F4G5H6-I7J8-9012-3456-789ABCDEF004}",
             "element_type": "plate",
@@ -496,11 +497,10 @@
                     3180.0
                 ]
             },
-            "production_number": 92,
-            "part_number": 44,
+            "production_number": 25,
+            "part_number": 41,
             "comment": "",
             "material": {
-                "material_name": "OSB/4",
                 "material_id": 654325
             }
         },
@@ -512,7 +512,8 @@
                 },
                 "7": {
                     "user7": "LOAD 06"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{F4G5H6I7-J8K9-0123-4567-89ABCDEF005}",
             "element_type": "beam",
@@ -539,10 +540,9 @@
                 ]
             },
             "production_number": 19,
-            "part_number": 49,
+            "part_number": 20,
             "comment": "",
             "material": {
-                "material_name": "GL 32 h NSi",
                 "material_id": 654326
             }
         },
@@ -554,7 +554,8 @@
                 },
                 "7": {
                     "user7": "LOAD 07"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{G5H6I7J8-K9L0-1234-5678-9ABCDEF006}",
             "element_type": "panel",
@@ -580,12 +581,11 @@
                     3200.0
                 ]
             },
-            "production_number": 30,
-            "part_number": 44,
+            "production_number": 3,
+            "part_number": 63,
             "comment": "",
             "material": {
-                "material_name": "CLT",
-                "material_id": 654327
+                "material_id": 654330
             }
         },
         {
@@ -596,7 +596,8 @@
                 },
                 "7": {
                     "user7": "LOAD 08"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{H6I7J8K9-L0M1-2345-6789-ABCDEF007}",
             "element_type": "plate",
@@ -622,11 +623,10 @@
                     3210.0
                 ]
             },
-            "production_number": 40,
-            "part_number": 63,
+            "production_number": 82,
+            "part_number": 96,
             "comment": "",
             "material": {
-                "material_name": "DWD",
                 "material_id": 654328
             }
         },
@@ -638,7 +638,8 @@
                 },
                 "7": {
                     "user7": "LOAD 09"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{I7J8K9L0-M1N2-3456-789A-BCDEF008}",
             "element_type": "beam",
@@ -664,11 +665,10 @@
                     3220.0
                 ]
             },
-            "production_number": 45,
-            "part_number": 24,
+            "production_number": 52,
+            "part_number": 27,
             "comment": "",
             "material": {
-                "material_name": "GL 24 h NSi",
                 "material_id": 654329
             }
         },
@@ -680,7 +680,8 @@
                 },
                 "7": {
                     "user7": "LOAD 10"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{J8K9L0M1-N2O3-4567-89AB-CDEF009}",
             "element_type": "panel",
@@ -706,11 +707,10 @@
                     3230.0
                 ]
             },
-            "production_number": 98,
-            "part_number": 5,
+            "production_number": 18,
+            "part_number": 46,
             "comment": "",
             "material": {
-                "material_name": "CLT",
                 "material_id": 654330
             }
         },
@@ -722,7 +722,8 @@
                 },
                 "7": {
                     "user7": "LOAD 11"
-                }
+                },
+                "15": "Hackathon 2025"
             },
             "cadwork_guid": "{K9L0M1N2-O3P4-5678-9ABC-DEF010}",
             "element_type": "plate",
@@ -748,13 +749,50 @@
                     3240.0
                 ]
             },
-            "production_number": 85,
-            "part_number": 69,
+            "production_number": 47,
+            "part_number": 79,
             "comment": "",
             "material": {
-                "material_name": "OSB/3",
-                "material_id": 654331
+                "material_id": 654321
             }
         }
-    ]
+    ],
+    "materials": {
+        "654323": {
+            "name": "GL 28 h NSi",
+            "code": 181
+        },
+        "654326": {
+            "name": "GL 32 h NSi",
+            "code": 771
+        },
+        "654329": {
+            "name": "GL 24 h NSi",
+            "code": 306
+        },
+        "654325": {
+            "name": "OSB/4",
+            "code": 943
+        },
+        "654328": {
+            "name": "DWD",
+            "code": 961
+        },
+        "654330": {
+            "name": "CLT-B",
+            "code": "0x20"
+        },
+        "654321": {
+            "name": "OSB/3",
+            "code": 313
+        },
+        "654322": {
+            "name": "Baubuche",
+            "code": 159
+        },
+        "735201": {
+            "name": "C24",
+            "code": 539
+        }
+    }
 }

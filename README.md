@@ -1,5 +1,7 @@
 # CWAPI3D Fake Implementation
 
+[![Run Tests](https://github.com/Brunner246/cwapi3d_fake/actions/workflows/test.yml/badge.svg)](https://github.com/Brunner246/cwapi3d_fake/actions/workflows/test.yml)
+
 This project is a partial fake implementation of the `cwapi3d` package. It provides a set of utilities and controllers
 to simulate the behavior of the `cwapi3d` package for testing and development purposes.
 

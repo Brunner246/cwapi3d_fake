@@ -1,11 +1,10 @@
 import os
-import pytest
 
 if (fake_data := os.getenv('CWAPI3D_FAKE_Test')) == 'false' or fake_data is None:
     os.environ['CWAPI3D_FAKE_Test'] = 'true'
 
 from cwapi3d_fake.cwapi3d_api.attribute_controller import set_name, set_subgroup, get_subgroup, set_user_attribute_name, \
-    get_user_attribute, set_element_material, get_element_material_name, get_user_attribute_name
+    get_user_attribute, set_element_material, get_element_material_name, get_user_attribute_name, is_beam
 
 import json
 
@@ -47,6 +46,11 @@ def test_set_element_material():
     material_name = get_element_material_name(1848469355)
     assert material_name.lower() == 'Baubuche'.lower()
 
+
 def test_get_user_attribute_name():
     user_attribute = get_user_attribute_name(1)
     assert user_attribute.lower() == 'user1'.lower()
+
+
+def test_is_beam():
+    assert is_beam(1848469417) == True

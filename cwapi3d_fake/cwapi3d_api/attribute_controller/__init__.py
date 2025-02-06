@@ -16,7 +16,7 @@ def set_name(element_id_list: List[int], name: str) -> None:
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
     list(map(lambda element: element.update({'name': name}), elements))
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def set_group(element_id_list: List[int], group: str) -> None:
@@ -31,7 +31,7 @@ def set_group(element_id_list: List[int], group: str) -> None:
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
     list(map(lambda element: element.update({'group': group}), elements))
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def set_subgroup(element_id_list: List[int], subgroup: str) -> None:
@@ -46,7 +46,7 @@ def set_subgroup(element_id_list: List[int], subgroup: str) -> None:
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
     list(map(lambda element: element.update({'subgroup': subgroup}), elements))
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def set_user_attribute(element_id_list: List[int], number: int, user_attribute: str) -> None:
@@ -62,7 +62,7 @@ def set_user_attribute(element_id_list: List[int], number: int, user_attribute: 
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
     list(map(lambda element: element['user_attributes'].update({str(number): user_attribute}), elements))
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def set_production_number(element_id_list: List[int], production_number: int) -> None:
@@ -77,7 +77,7 @@ def set_production_number(element_id_list: List[int], production_number: int) ->
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
     list(map(lambda element: element.update({'production_number': production_number}), elements))
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def set_part_number(element_id_list: List[int], part_number: int) -> None:
@@ -92,7 +92,7 @@ def set_part_number(element_id_list: List[int], part_number: int) -> None:
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
     list(map(lambda element: element.update({'part_number': part_number}), elements))
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def set_user_attribute_name(number: int, user_attribute_name: str) -> None:
@@ -106,7 +106,7 @@ def set_user_attribute_name(number: int, user_attribute_name: str) -> None:
         None
     """
     [element['user_attributes'].update({str(number): user_attribute_name}) for element in data['elements']]
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def set_element_material(element_id_list: List[int], material_id: int) -> None:
@@ -122,7 +122,7 @@ def set_element_material(element_id_list: List[int], material_id: int) -> None:
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
     list(filter(lambda material: material['material'].update({'material_id': material_id}),
                 elements))
-    utils.save_data(data)
+    utils.persist_data(data)
 
 
 def get_name(element_id: int) -> str:
@@ -243,7 +243,7 @@ def get_element_material_name(element_id: int) -> str:
     element = utils.get_element_filter_by_id(element_id, data)
     if element:
         material_id = element['material'].get("material_id", 0)
-        return data['materials'].get(str(material_id), '')
+        return data['materials'].get(str(material_id), '').get('name', '')
     return ''
 
 
