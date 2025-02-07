@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import uuid
 
 os.environ['CWAPI3D_FAKE_Test'] = 'true'
 
@@ -30,19 +31,16 @@ def update_material_info():
     data['materials'] = materials
 
 
-def update_user_attributes():
-    for element in data['elements']:
-        updated_user_attributes = {}
-        for key, value in element['user_attributes'].items():
-            updated_user_attributes[key] = {f'user{key}': value}
-        element['user_attributes'] = updated_user_attributes
+def generate_unique_id():
+    """Generate a short unique ID for reference values."""
+    return random.randint(10_000, 99_999)
 
 
 if __name__ == '__main__':
-    with open(cwapi3d_fake_data_path, 'r') as file:
+    with open(cwapi3d_fake_data_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    update_material_info()
+    # update_material_info()
 
-    with open(cwapi3d_fake_data_path, 'w') as file:
+    with open(cwapi3d_fake_data_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)

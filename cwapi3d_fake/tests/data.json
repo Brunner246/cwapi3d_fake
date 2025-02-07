@@ -1,20 +1,20 @@
 {
     "elements": [
         {
-            "name": "new name",
+            "name": 97759,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-1"
+                    "58400": 97760
                 },
                 "7": {
-                    "user7": "section-1"
+                    "86645": 14522
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{E7CEAE8D-871B-4EF8-8EBB-49B36EA87552}",
             "element_type": "beam",
-            "subgroup": "GF-12",
-            "group": "components",
+            "subgroup": 88969,
+            "group": 90341,
             "element_id": 1848469387,
             "geometry": {
                 "width": 180.0,
@@ -43,20 +43,20 @@
             }
         },
         {
-            "name": "new name",
+            "name": 97759,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-1"
+                    "58400": 97760
                 },
                 "7": {
-                    "user7": "section-1"
+                    "86645": 14522
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{D56D1094-9715-46B8-BF09-566DF10C1A94}",
             "element_type": "panel",
-            "subgroup": "GF-12",
-            "group": "components",
+            "subgroup": 88969,
+            "group": 90341,
             "element_id": 1848469355,
             "geometry": {
                 "width": 200.0,
@@ -85,20 +85,20 @@
             }
         },
         {
-            "name": "lower sill",
+            "name": 83314,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-1"
+                    "58400": 78943
                 },
                 "7": {
-                    "user7": "section-1"
+                    "86645": 14522
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{5AF37B69-0916-4040-A933-BA8D08F9D31B}",
             "element_type": "beam",
-            "subgroup": "GF-1",
-            "group": "components",
+            "subgroup": 12959,
+            "group": 90341,
             "element_id": 1848469417,
             "geometry": {
                 "width": 220.0,
@@ -127,20 +127,20 @@
             }
         },
         {
-            "name": "lower sill",
+            "name": 83314,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-1"
+                    "58400": 78943
                 },
                 "7": {
-                    "user7": "section-1"
+                    "86645": 14522
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{7D0339EA-9A0F-490C-84D0-23AD9A98FA67}",
             "element_type": "panel",
-            "subgroup": "GF-1",
-            "group": "components",
+            "subgroup": 12959,
+            "group": 90341,
             "element_id": 1848470234,
             "geometry": {
                 "width": 240.0,
@@ -169,20 +169,20 @@
             }
         },
         {
-            "name": "stem",
+            "name": 13225,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-1"
+                    "58400": 78943
                 },
                 "7": {
-                    "user7": "section-1"
+                    "86645": 14522
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{84FCC2AF-9CCA-4718-9D7F-C564AACF4A23}",
             "element_type": "beam",
-            "subgroup": "GF-1",
-            "group": "components",
+            "subgroup": 12959,
+            "group": 90341,
             "element_id": 1848469345,
             "geometry": {
                 "width": 260.0,
@@ -211,20 +211,20 @@
             }
         },
         {
-            "name": "upper sill",
+            "name": 90061,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-1"
+                    "58400": 78943
                 },
                 "7": {
-                    "user7": "section-1"
+                    "86645": 14522
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{0C5F4776-8ABB-4BF1-9409-440FE724FBF2}",
             "element_type": "panel",
-            "subgroup": "GF-1",
-            "group": "components",
+            "subgroup": 12959,
+            "group": 90341,
             "element_id": 1848689070,
             "geometry": {
                 "width": 280.0,
@@ -253,20 +253,20 @@
             }
         },
         {
-            "name": "upper sill",
+            "name": 90061,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-1"
+                    "58400": 78943
                 },
                 "7": {
-                    "user7": "section-1"
+                    "86645": 14522
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{C0B52D7B-736F-464C-9F34-BD4F6210C8F3}",
             "element_type": "beam",
-            "subgroup": "GF-1",
-            "group": "components",
+            "subgroup": 12959,
+            "group": 90341,
             "element_id": 1848689935,
             "geometry": {
                 "width": 300.0,
@@ -295,20 +295,20 @@
             }
         },
         {
-            "name": "plate1",
+            "name": 29337,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-2"
+                    "58400": 57449
                 },
                 "7": {
-                    "user7": "LOAD 01"
+                    "86645": 71761
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{A1B2C3D4-E5F6-7890-1234-56789ABCDEF0}",
             "element_type": "plate",
-            "subgroup": "Floor",
-            "group": "Component",
+            "subgroup": 11998,
+            "group": 92298,
             "element_id": 1848689940,
             "geometry": {
                 "width": 320.0,
@@ -337,20 +337,20 @@
             }
         },
         {
-            "name": "plate2",
+            "name": 35734,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-3"
+                    "58400": 13609
                 },
                 "7": {
-                    "user7": "LOAD 02"
+                    "86645": 33393
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{B2C3D4E5-F6A7-8901-2345-6789ABCDEF01}",
             "element_type": "plate",
-            "subgroup": "Roof",
-            "group": "Component",
+            "subgroup": 96667,
+            "group": 92298,
             "element_id": 1848689941,
             "geometry": {
                 "width": 340.0,
@@ -379,20 +379,20 @@
             }
         },
         {
-            "name": "beam1",
+            "name": 97758,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-4"
+                    "58400": 44900
                 },
                 "7": {
-                    "user7": "LOAD 03"
+                    "86645": 11077
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{C1D2E3F4-G5H6-7890-1234-56789ABCDEF2}",
             "element_type": "beam",
-            "subgroup": "Ceiling",
-            "group": "Structure",
+            "subgroup": 19498,
+            "group": 84037,
             "element_id": 1848689942,
             "geometry": {
                 "width": 360.0,
@@ -421,20 +421,20 @@
             }
         },
         {
-            "name": "panel1",
+            "name": 90344,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-5"
+                    "58400": 63018
                 },
                 "7": {
-                    "user7": "LOAD 04"
+                    "86645": 34868
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{D2E3F4G5-H6I7-8901-2345-6789ABCDEF03}",
             "element_type": "panel",
-            "subgroup": "Wall",
-            "group": "Structure",
+            "subgroup": 62279,
+            "group": 84037,
             "element_id": 1848689943,
             "geometry": {
                 "width": 380.0,
@@ -463,20 +463,20 @@
             }
         },
         {
-            "name": "plate3",
+            "name": 55518,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-6"
+                    "58400": 13861
                 },
                 "7": {
-                    "user7": "LOAD 05"
+                    "86645": 27458
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{E3F4G5H6-I7J8-9012-3456-789ABCDEF004}",
             "element_type": "plate",
-            "subgroup": "Floor",
-            "group": "Component",
+            "subgroup": 11998,
+            "group": 92298,
             "element_id": 1848689944,
             "geometry": {
                 "width": 400.0,
@@ -505,20 +505,20 @@
             }
         },
         {
-            "name": "beam2",
+            "name": 23069,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-7"
+                    "58400": 32912
                 },
                 "7": {
-                    "user7": "LOAD 06"
+                    "86645": 42525
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{F4G5H6I7-J8K9-0123-4567-89ABCDEF005}",
             "element_type": "beam",
-            "subgroup": "Roof",
-            "group": "Structure",
+            "subgroup": 96667,
+            "group": 84037,
             "element_id": 1848689945,
             "geometry": {
                 "width": 420.0,
@@ -547,20 +547,20 @@
             }
         },
         {
-            "name": "panel2",
+            "name": 40927,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-8"
+                    "58400": 31712
                 },
                 "7": {
-                    "user7": "LOAD 07"
+                    "86645": 10080
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{G5H6I7J8-K9L0-1234-5678-9ABCDEF006}",
             "element_type": "panel",
-            "subgroup": "Wall",
-            "group": "Structure",
+            "subgroup": 62279,
+            "group": 84037,
             "element_id": 1848689946,
             "geometry": {
                 "width": 440.0,
@@ -589,20 +589,20 @@
             }
         },
         {
-            "name": "plate4",
+            "name": 83588,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-9"
+                    "58400": 12875
                 },
                 "7": {
-                    "user7": "LOAD 08"
+                    "86645": 64653
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{H6I7J8K9-L0M1-2345-6789-ABCDEF007}",
             "element_type": "plate",
-            "subgroup": "Ceiling",
-            "group": "Component",
+            "subgroup": 19498,
+            "group": 92298,
             "element_id": 1848689947,
             "geometry": {
                 "width": 460.0,
@@ -631,20 +631,20 @@
             }
         },
         {
-            "name": "beam3",
+            "name": 15631,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-10"
+                    "58400": 31473
                 },
                 "7": {
-                    "user7": "LOAD 09"
+                    "86645": 87779
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{I7J8K9L0-M1N2-3456-789A-BCDEF008}",
             "element_type": "beam",
-            "subgroup": "Floor",
-            "group": "Structure",
+            "subgroup": 11998,
+            "group": 84037,
             "element_id": 1848689948,
             "geometry": {
                 "width": 480.0,
@@ -673,20 +673,20 @@
             }
         },
         {
-            "name": "panel3",
+            "name": 42739,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-11"
+                    "58400": 22525
                 },
                 "7": {
-                    "user7": "LOAD 10"
+                    "86645": 16734
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{J8K9L0M1-N2O3-4567-89AB-CDEF009}",
             "element_type": "panel",
-            "subgroup": "Roof",
-            "group": "Structure",
+            "subgroup": 96667,
+            "group": 84037,
             "element_id": 1848689949,
             "geometry": {
                 "width": 500.0,
@@ -715,20 +715,20 @@
             }
         },
         {
-            "name": "plate5",
+            "name": 87714,
             "user_attributes": {
                 "1": {
-                    "user1": "MODUL-12"
+                    "58400": 40029
                 },
                 "7": {
-                    "user7": "LOAD 11"
+                    "86645": 74426
                 },
                 "15": "Hackathon 2025"
             },
             "cadwork_guid": "{K9L0M1N2-O3P4-5678-9ABC-DEF010}",
             "element_type": "plate",
-            "subgroup": "Wall",
-            "group": "Component",
+            "subgroup": 62279,
+            "group": 92298,
             "element_id": 1848689950,
             "geometry": {
                 "width": 520.0,
@@ -794,5 +794,257 @@
             "name": "C24",
             "code": 539
         }
-    }
+    },
+    "attribute_values": [
+        {
+            "id": 78943,
+            "value": "alpha_value"
+        },
+        {
+            "id": 14522,
+            "value": "beta_value"
+        },
+        {
+            "id": 75296,
+            "value": "gamma_value"
+        },
+        {
+            "id": 43474,
+            "value": "delta_value"
+        },
+        {
+            "id": 88969,
+            "value": "epsilon_value"
+        },
+        {
+            "id": 90341,
+            "value": "zeta_value"
+        },
+        {
+            "id": 83314,
+            "value": "eta_value"
+        },
+        {
+            "id": 12959,
+            "value": "theta_value"
+        },
+        {
+            "id": 13225,
+            "value": "iota_value"
+        },
+        {
+            "id": 90061,
+            "value": "kappa_value"
+        },
+        {
+            "id": 57449,
+            "value": "lambda_value"
+        },
+        {
+            "id": 71761,
+            "value": "mu_value"
+        },
+        {
+            "id": 29337,
+            "value": "nu_value"
+        },
+        {
+            "id": 11998,
+            "value": "xi_value"
+        },
+        {
+            "id": 92298,
+            "value": "omicron_value"
+        },
+        {
+            "id": 13609,
+            "value": "pi_value"
+        },
+        {
+            "id": 33393,
+            "value": "rho_value"
+        },
+        {
+            "id": 35734,
+            "value": "sigma_value"
+        },
+        {
+            "id": 96667,
+            "value": "tau_value"
+        },
+        {
+            "id": 44900,
+            "value": "upsilon_value"
+        },
+        {
+            "id": 11077,
+            "value": "phi_value"
+        },
+        {
+            "id": 97758,
+            "value": "chi_value"
+        },
+        {
+            "id": 19498,
+            "value": "psi_value"
+        },
+        {
+            "id": 84037,
+            "value": "omega_value"
+        },
+        {
+            "id": 63018,
+            "value": "alpha_str_value"
+        },
+        {
+            "id": 34868,
+            "value": "beta_str_value"
+        },
+        {
+            "id": 90344,
+            "value": "gamma_str_value"
+        },
+        {
+            "id": 62279,
+            "value": "delta_str_value"
+        },
+        {
+            "id": 13861,
+            "value": "epsilon_str_value"
+        },
+        {
+            "id": 27458,
+            "value": "zeta_str_value"
+        },
+        {
+            "id": 55518,
+            "value": "eta_str_value"
+        },
+        {
+            "id": 32912,
+            "value": "theta_str_value"
+        },
+        {
+            "id": 42525,
+            "value": "iota_str_value"
+        },
+        {
+            "id": 23069,
+            "value": "kappa_str_value"
+        },
+        {
+            "id": 31712,
+            "value": "lambda_str_value"
+        },
+        {
+            "id": 10080,
+            "value": "mu_str_value"
+        },
+        {
+            "id": 40927,
+            "value": "nu_str_value"
+        },
+        {
+            "id": 12875,
+            "value": "xi_str_value"
+        },
+        {
+            "id": 64653,
+            "value": "omicron_str_value"
+        },
+        {
+            "id": 83588,
+            "value": "pi_str_value"
+        },
+        {
+            "id": 31473,
+            "value": "rho_str_value"
+        },
+        {
+            "id": 87779,
+            "value": "sigma_str_value"
+        },
+        {
+            "id": 15631,
+            "value": "tau_str_value"
+        },
+        {
+            "id": 22525,
+            "value": "upsilon_str_value"
+        },
+        {
+            "id": 16734,
+            "value": "phi_str_value"
+        },
+        {
+            "id": 42739,
+            "value": "chi_str_value"
+        },
+        {
+            "id": 40029,
+            "value": "psi_str_value"
+        },
+        {
+            "id": 74426,
+            "value": "omega_str_value"
+        },
+        {
+            "id": 87714,
+            "value": "alpha_end_value"
+        },
+        {
+            "id": 97759,
+            "value": "new name"
+        },
+        {
+            "id": 97760,
+            "value": "Hackathon 2025 7/2/25"
+        }
+    ],
+    "attribute_keys": [
+        {
+            "id": 58400,
+            "key": "user1",
+            "values": [
+                78943,
+                57449,
+                13609,
+                44900,
+                63018,
+                13861,
+                32912,
+                31712,
+                12875,
+                31473,
+                22525,
+                40029,
+                97760
+            ]
+        },
+        {
+            "id": 86645,
+            "key": "user7",
+            "values": [
+                14522,
+                71761,
+                33393,
+                11077,
+                34868,
+                27458,
+                42525,
+                10080,
+                64653,
+                87779,
+                16734,
+                74426
+            ]
+        },
+        {
+            "id": 73575,
+            "key": "default",
+            "values": [
+                75296
+            ]
+        }
+    ]
 }

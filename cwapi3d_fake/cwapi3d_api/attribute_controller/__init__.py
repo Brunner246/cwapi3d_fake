@@ -1,5 +1,6 @@
 from typing import List
 from cwapi3d_fake.cwapi3d_api import utils
+from cwapi3d_fake.cwapi3d_api.utils import Attribute, UserAttribute
 
 data = utils.load_data()
 
@@ -15,7 +16,18 @@ def set_name(element_id_list: List[int], name: str) -> None:
         None
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
-    list(map(lambda element: element.update({'name': name}), elements))
+    attribute_values: List[Attribute] = [Attribute(attribute_id=item['id'], user_attribute_name=item['value']) for item
+                                         in
+                                         data['attribute_values']]
+    matching_attributes = [attr for attr in attribute_values if attr.user_attribute_name == name]
+    if matching_attributes:
+        list(map(lambda element: element.update({'name': matching_attributes[0].attribute_id}), elements))
+        utils.persist_data(data)
+        return None
+    new_attribute_id = max([attr.attribute_id for attr in attribute_values]) + 1
+    data['attribute_values'].append({"id": new_attribute_id, "value": name})
+
+    list(map(lambda element: element.update({'name': new_attribute_id}), elements))
     utils.persist_data(data)
 
 
@@ -30,7 +42,18 @@ def set_group(element_id_list: List[int], group: str) -> None:
         None
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
-    list(map(lambda element: element.update({'group': group}), elements))
+    attribute_values: List[Attribute] = [Attribute(attribute_id=item['id'], user_attribute_name=item['value']) for item
+                                         in
+                                         data['attribute_values']]
+    matching_attributes = [attr for attr in attribute_values if attr.user_attribute_name == group]
+    if matching_attributes:
+        list(map(lambda element: element.update({'group': matching_attributes[0].attribute_id}), elements))
+        utils.persist_data(data)
+        return None
+    new_attribute_id = max([attr.attribute_id for attr in attribute_values]) + 1
+    data['attribute_values'].append({"id": new_attribute_id, "value": group})
+
+    list(map(lambda element: element.update({'group': new_attribute_id}), elements))
     utils.persist_data(data)
 
 
@@ -45,7 +68,18 @@ def set_subgroup(element_id_list: List[int], subgroup: str) -> None:
         None
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
-    list(map(lambda element: element.update({'subgroup': subgroup}), elements))
+    attribute_values: List[Attribute] = [Attribute(attribute_id=item['id'], user_attribute_name=item['value']) for item
+                                         in
+                                         data['attribute_values']]
+    matching_attributes = [attr for attr in attribute_values if attr.user_attribute_name == subgroup]
+    if matching_attributes:
+        list(map(lambda element: element.update({'subgroup': matching_attributes[0].attribute_id}), elements))
+        utils.persist_data(data)
+        return None
+    new_attribute_id = max([attr.attribute_id for attr in attribute_values]) + 1
+    data['attribute_values'].append({"id": new_attribute_id, "value": subgroup})
+
+    list(map(lambda element: element.update({'subgroup': new_attribute_id}), elements))
     utils.persist_data(data)
 
 
@@ -53,15 +87,39 @@ def set_user_attribute(element_id_list: List[int], number: int, user_attribute: 
     """Sets the element user attribute
 
     Parameters:
-        element_id_list: element_id_list
-        number: number
-        user_attribute: user_attribute
+        element_id_list: List of element IDs
+        number: Position number for the user attribute
+        user_attribute: User attribute value
 
     Returns:
         None
     """
     elements = utils.get_elements_filter_by_ids(element_id_list, data)
-    list(map(lambda element: element['user_attributes'].update({str(number): user_attribute}), elements))
+    attribute_values: List[Attribute] = [Attribute(attribute_id=item['id'], user_attribute_name=item['value']) for item
+                                         in data['attribute_values']]
+    matching_attributes = [attr for attr in attribute_values if attr.user_attribute_name == user_attribute]
+
+    if matching_attributes:
+        user_attr = UserAttribute(attribute_id=matching_attributes[0].attribute_id, attribute=matching_attributes[0])
+        for element in elements:
+            element['user_attributes'][str(number)] = {58400: user_attr.attribute_id}
+        utils.persist_data(data)
+        return None
+
+    new_attribute_id = max([attr.attribute_id for attr in attribute_values]) + 1
+    new_attribute = Attribute(attribute_id=new_attribute_id, user_attribute_name=user_attribute)
+    data['attribute_values'].append({"id": new_attribute_id, "value": user_attribute})
+
+    for key in data['attribute_keys']:
+        if key['key'] == 'user1':
+            key['values'].append(new_attribute_id)
+            break
+    else:
+        data['attribute_keys'].append({"id": 58400, "key": "user1", "values": [new_attribute_id]})
+
+    user_attr = UserAttribute(attribute_id=new_attribute_id, attribute=new_attribute)
+    for element in elements:
+        element['user_attributes'][str(number)] = {58400: user_attr.attribute_id}
     utils.persist_data(data)
 
 
@@ -105,6 +163,8 @@ def set_user_attribute_name(number: int, user_attribute_name: str) -> None:
     Returns:
         None
     """
+    items = [Attribute(key, list(value.keys())[0]) for element in data['elements'] for key, value in element['user_attributes'].items() if key == str(number)]
+    keys = data['attribute_keys']
     [element['user_attributes'].update({str(number): user_attribute_name}) for element in data['elements']]
     utils.persist_data(data)
 

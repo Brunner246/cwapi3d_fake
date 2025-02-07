@@ -4,8 +4,9 @@ if (fake_data := os.getenv('CWAPI3D_FAKE_Test')) == 'false' or fake_data is None
     os.environ['CWAPI3D_FAKE_Test'] = 'true'
 
 from cwapi3d_fake.cwapi3d_api.attribute_controller import set_name, set_subgroup, get_subgroup, set_user_attribute_name, \
-    get_user_attribute, set_element_material, get_element_material_name, get_user_attribute_name, is_beam
-
+    get_user_attribute, set_element_material, get_element_material_name, get_user_attribute_name, is_beam, \
+    set_user_attribute
+from cwapi3d_fake.cwapi3d_api.utils import Attribute
 import json
 
 
@@ -14,7 +15,9 @@ def test_set_name():
     with open('data.json', 'r') as file:
         data = json.load(file)
     elements = list(filter(lambda element: element['element_id'] in [1848469355, 1848469387], data['elements']))
-    assert all(element['name'] == 'new name' for element in elements)
+    attributes = [Attribute(attribute_id=item['id'], user_attribute_name=item['value']) for item in data['attribute_values']]
+    filtered_attributes = [attr for attr in attributes if attr.attribute_id in [element['name'] for element in elements]]
+    assert all(element['name'] in [attr.attribute_id for attr in filtered_attributes] for element in elements)
 
 
 def test_set_subgroup():
@@ -39,6 +42,9 @@ def test_set_user_attribute_name():
     set_user_attribute_name(15, 'Hackathon 2025')
     user_attribute = get_user_attribute(1848469355, 15)
     assert user_attribute == 'Hackathon 2025'
+
+def test_set_user_attribute():
+    set_user_attribute([1848469355, 1848469387], 1, 'Hackathon 2025 7/2/25')
 
 
 def test_set_element_material():

@@ -91,6 +91,24 @@ def get_element_filter_by_id(element_id: int, mock_data: Any) -> Dict[str, Any]:
 
 
 @dataclass
+class Attribute:
+    attribute_id: int
+    user_attribute_name: str
+
+
+@dataclass
+class UserAttribute:
+    attribute_id: int
+    attribute: Attribute
+
+
+@dataclass
+class Name:
+    name_id: int
+    name: str
+
+
+@dataclass
 class Material:
     material_id: int
     material_name: str
