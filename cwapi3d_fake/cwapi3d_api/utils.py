@@ -3,6 +3,7 @@ import random
 import uuid
 import os
 from dataclasses import dataclass
+from enum import Enum
 from typing import List, Any, Dict
 
 from cwapi3d_fake.cwapi3d_api.cadwork.point_3d import point_3d
@@ -40,25 +41,35 @@ def create_guid() -> str:
     return str(uuid.uuid4())
 
 
-def create_fake_cadwork_element_template():
+class ElementType(Enum):
+    BEAM = 'beam'
+    PANEL = 'panel'
+    DRILLING = 'drilling'
+    CONNECTOR = 'connector'
+
+
+def create_fake_cadwork_element_template(element_type: ElementType):
     element_id = create_random_10_digit_number()
     new_element = {
         "name": "",
         "user_attributes": {
         },
         "cadwork_guid": f"{{{create_guid()}}}",
-        "element_type": "beam",
+        "element_type": element_type.value,
         "subgroup": "",
         "group": "",
         "material_name": "",
-        "material_id": 0,
-        "element_id": element_id
+        "material": dict(),
+        "element_id": element_id,
+        "comment": "",
+        "production_number": 0,
+        "part_number": 0
     }
     return new_element
 
 
 def create_new_construction_element(width: float, height: float, p1: point_3d, p2: point_3d, p3: point_3d):
-    new_element = create_fake_cadwork_element_template()
+    new_element = create_fake_cadwork_element_template(ElementType.BEAM)
     new_element['geometry'] = {
         "width": width,
         "height": height,
@@ -70,7 +81,7 @@ def create_new_construction_element(width: float, height: float, p1: point_3d, p
 
 
 def create_new_connector_element(diameter: float, p1: point_3d, p2: point_3d):
-    new_element = create_fake_cadwork_element_template()
+    new_element = create_fake_cadwork_element_template(ElementType.DRILLING)
     new_element['geometry'] = {
         "diameter": diameter,
         "p1": [p1.x, p1.y, p1.z],

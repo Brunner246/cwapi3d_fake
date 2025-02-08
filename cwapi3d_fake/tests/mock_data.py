@@ -10,7 +10,9 @@ mock_data = {
             "element_type": "beam",
             "subgroup": "GF-1",
             "group": "components",
-            "material_name": "GL 24 h NSi",
+            "material": {
+                "material_id": 654329
+            },
             "material_id": 123456,
             "element_id": 1234567890,
             "geometry": {
@@ -19,7 +21,9 @@ mock_data = {
                 "p1": [3090.0, 1250.0, 3070.0],
                 "p2": [3090.0, 1250.0, 5550.0],
                 "p3": [3090.0, 1251.0, 3070.0]
-            }
+            },
+            "production_number": 0,
+            "part_number": 0,
         }
     ]
 }
